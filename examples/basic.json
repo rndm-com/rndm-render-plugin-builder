@@ -1,0 +1,29 @@
+{
+  "type": "react-native.View",
+  "props": {
+    "middleware": [{
+      "middleware": "rndm-builder.prebuild",
+      "args": [{
+        "type": "TESTTEXT",
+        "rndm": {
+          "type": "react-native.View",
+          "props": {
+            "style": {
+              "padding": 20,
+              "backgroundColor": "green"
+            },
+            "children": {
+              "type": "react-native.Text",
+              "props": {
+                "children": "Hello world"
+              }
+            }
+          }
+        }
+      }]
+    }],
+    "children": {
+      "type": "rndm-builder.TESTTEXT"
+    }
+  }
+}
