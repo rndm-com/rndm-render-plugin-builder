@@ -25,9 +25,9 @@ import '@rndm/render-plugin-builder';
 
 ## Usage
 
-The Builder plugin allows your application to describe functionality ahead of time through a middleware object for later usage. Ocne it has been described once, ti will be retained for the lifetime of the application.
+The Builder plugin allows your application to describe functionality ahead of time through a middleware object for later usage. Once it has been described once, it will be retained for the lifetime of the application.
 
-**Please Note:** This plugin will only create the functionality for the currently running instance and will be purged upon the close of the application. Future presets will include lloca stage versions of this.
+**Please Note:** This plugin will only create the functionality for the currently running instance and will be purged upon the close of the application. Future presets will include local stage versions of this.
 
 **Example**
 
@@ -67,11 +67,11 @@ Below is a simple example of creating a Class in RNDM for future usage:
 
 ### Changing the Input
 
-The Builder plugin supplies the ability to change properties prior to execution. In the example above, we have created a simple class  with the a background color of green. However, this can be changed in one of two ways:
+The Builder plugin supplies the ability to change properties prior to execution. In the example above, we have created a simple class  with the a background colour of green. However, this can be changed in one of two ways:
 
 #### Props
 
-The props property is an Object that can be passed into builder as is. For instance we may want to chang ethe backgroundColor to 'red'. We can do this as below:
+The props property is an Object that can be passed into builder as is. For instance we may want to change the backgroundColor to 'red'. We can do this as below:
 
 **Example**
 
@@ -119,7 +119,7 @@ The props property is an Object that can be passed into builder as is. For insta
 
 #### Setters
 
-The second way is less verbose and allows a simple key value object. Again we can change the background color to another color. This time we will select 'orange':
+The second way is less verbose and allows a simple key value object. Again we can change the background colour to another colour. This time we will select 'orange':
 
 **Example**
 
