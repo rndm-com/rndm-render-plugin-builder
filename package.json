@@ -1,6 +1,6 @@
 {
   "name": "@rndm/render-plugin-builder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "RNDM Render Plugin: Builder. Create custom methods and functionality for RNDM Render",
   "main": "src/index.js",
   "author": "RNDM",
@@ -14,6 +14,6 @@
     "url": "https://github.com/rndm-com/rndm-render-plugin-builder/issues"
   },
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.21"
   }
 }
